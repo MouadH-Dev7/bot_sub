@@ -1,9 +1,8 @@
 flask
 stripe
+python-telegram-bot
 python-dotenv
 apscheduler
 pytz
-python-telegram-bot==20.6
 aiohttp==3.8.6
-
-
+aiogram
