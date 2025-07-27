@@ -5,4 +5,4 @@ python-dotenv
 apscheduler
 pytz
 aiohttp==3.8.6
-aiogram
+aiogram==2.25.2
