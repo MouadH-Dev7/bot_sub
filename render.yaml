@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: telegram-stripe-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python webhook.py"
+    envVars:
+      - key: BOT_TOKEN
+        value: YOUR_BOT_TOKEN
+      - key: STRIPE_SECRET_KEY
+        value: YOUR_STRIPE_SECRET
+      - key: STRIPE_WEBHOOK_SECRET
+        value: YOUR_STRIPE_WEBHOOK_SECRET
+      - key: CHANNEL_ID
+        value: YOUR_CHANNEL_ID
+      - key: PRICE_ID
+        value: YOUR_STRIPE_PRICE_ID

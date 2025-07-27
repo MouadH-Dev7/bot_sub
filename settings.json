@@ -1,0 +1,5 @@
+{
+  "subscription_days": 3,
+  "warning_minutes": 3600,
+  "check_interval_minutes": 120
+}
