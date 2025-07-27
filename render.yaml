@@ -3,7 +3,7 @@ services:
     name: telegram-stripe-bot
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python python bot.py"
+    startCommand: "python python webhook.py"
     envVars:
       - key: BOT_TOKEN
         value: YOUR_BOT_TOKEN
